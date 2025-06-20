@@ -6,6 +6,7 @@ import {
 
 import Page, { ErrorPage } from "./utils/Page";
 
+import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import Events from "./pages/events/Events";
 import Museum from "./pages/museum/Museum";
@@ -15,6 +16,7 @@ import CourseIndividual from "./pages/courses/pages/Individual";
 
 const router = createHashRouter([
   { path: "/", element: (<Page title="首頁"><Home /></Page>), errorElement: (<ErrorPage />) },
+  { path: "/about", element: (<Page title="關於"><About /></Page>) },
   { path: "/events", element: (<Page title="活動"><Events /></Page>) },
   { path: "/courses", element: (<Page title="課程"><CourseList /></Page>) },
   { path: "/courses/:id", element: (<Page title="課程"><CourseIndividual /></Page>) },

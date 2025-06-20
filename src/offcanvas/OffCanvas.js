@@ -11,12 +11,13 @@ export default function Offcanvas() {
       id="offcanvas" aria-labelledby="offcanvasLabel">
       <div className="offcanvas-header">
         <h5 className="offcanvas-title" id="offcanvasLabel">
-          CKEFGISC 29<Up>th</Up>
+          CKEFGISC 30<Up>th</Up>
         </h5>
         <button type="button" className="btn-close offcanvas-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body thin-scrollbar">
         <ul className="navbar-nav">
+          <OffLink href="#/about">關於</OffLink>
           <OffLink href="#/team">幹部</OffLink>
           <OffLink href="#/courses">課程</OffLink>
           <OffLink href="#/events">活動</OffLink>

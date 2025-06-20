@@ -36,6 +36,11 @@
 	opacity: 1;
 }
 
+.icon .logo.hover-to-hide {
+	width: 1.5em;
+	opacity: 1;
+}
+
 @media (min-width: 576px) {
 	.icon:hover .hover-to-hide:not(.header-shrink *) {
 		width: 0;
@@ -48,6 +53,10 @@
 	}
 
 	.icon:hover .hover-to-show.long:not(.header-shrink *) {
-		width: 6.35em;
+		width: 4.45em;
+	}
+
+	.icon:hover .logo.hover-to-show:not(.header-shrink *) {
+		width: 1.5em;
 	}
 }

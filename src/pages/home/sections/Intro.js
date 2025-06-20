@@ -1,5 +1,4 @@
 import Row from "../../../utils/Row";
-import Scroll from "../../../utils/Scroll";
 import "./Intro.scss";
 
 export default function Intro() {
@@ -10,8 +9,8 @@ export default function Intro() {
           <Row>
             <div className="col-md-12">
               <h1>建北電資</h1>
-              <h2>一個跨越 <span>29</span> 年的大家庭</h2>
-              <Scroll to="#map" className="btn btn-outline-warning">關於我們</Scroll>
+              <h2>一個跨越 <span>30</span> 年的大家庭</h2>
+              <a href="#/about" className="btn btn-outline-warning">關於我們</a>
             </div>
           </Row>
         </div>

@@ -26,7 +26,8 @@ export default function CourseList() {
       課程介紹
     </section>
     <section id="courses">
-      <SectionTitle>113 上</SectionTitle>
+      <SectionTitle>114 上學期 建電大社課</SectionTitle>
+      <SectionTitle>114 上學期 放學小社課</SectionTitle>
       <div className="container py-1">
         {text ? (<>
           <CourseIntro

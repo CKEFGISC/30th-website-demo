@@ -48,7 +48,7 @@ export function switchPageAnimation() {
 
 export default function Page(props) {
   React.useEffect(() => {
-    document.title = `${props.title} | 建北電資 29th`;
+    document.title = `${props.title} | 建北電資 30th`;
 
     switchPageAnimation();
 
